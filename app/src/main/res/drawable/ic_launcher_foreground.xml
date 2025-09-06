@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,0
+                          A54,54 0 1,1 53.99,0
+                          Z"/>
+
+    <!-- Hotel / Bed Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,60 L28,42 L80,42 L80,60 L72,60 L72,50 L36,50 L36,60 Z
+                          M34,40 L74,40 L74,38 L34,38 Z"/>
+
+    <!-- Bill / Receipt Lines -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M36,46 H70 V48 H36 Z
+                          M36,52 H70 V54 H36 Z
+                          M36,58 H70 V60 H36 Z"/>
+</vector>

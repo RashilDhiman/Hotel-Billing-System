@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Custom Filled Button Style -->
+        <style name="Widget.MyApp.Button.Filled" parent="Widget.Material3.Button">
+            <!-- Text color -->
+            <item name="android:textColor">@android:color/white</item>
+            <!-- Corner radius -->
+            <item name="cornerRadius">16dp</item>
+            <!-- Minimum height -->
+            <item name="minHeight">48dp</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+
+        <!-- Custom Outlined Button Style -->
+        <style name="Widget.MyApp.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+            <item name="strokeWidth">2dp</item>
+            <item name="cornerRadius">16dp</item>
+        </style>
+
+
+
+</resources>

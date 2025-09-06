@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.abc.hbs">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/hotel_billing_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hotel_billing_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HBS"
+        tools:targetApi="31">
+
+        <!-- Splash / MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+
+        <!-- Admin -->
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.ManageBranchesActivity"
+            android:exported="false" />
+
+        <!-- Branch -->
+        <activity
+            android:name=".ui.branch.AddBranchActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.branch.BillActivity"
+            android:exported="false" />
+
+        <!-- Customer -->
+        <activity
+            android:name=".ui.customer.AddCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerListActivity"
+            android:exported="false" />
+
+        <!-- Invoice -->
+        <activity
+            android:name=".ui.invoice.InvoiceActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

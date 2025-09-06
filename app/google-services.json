@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919119001451",
+    "project_id": "hbst-5aa54",
+    "storage_bucket": "hbst-5aa54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919119001451:android:af3fd603cfd46c1b8e3e2e",
+        "android_client_info": {
+          "package_name": "com.abc.hbs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwPRqiY1ml0lnoU5_Dk5Ltxluqnrt1_xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
